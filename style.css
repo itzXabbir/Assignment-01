@@ -31,6 +31,7 @@ body {
   border: none;
   border-radius: 10px;
   color: white;
+  cursor: pointer;
 }
 /* navbar CSS start */
 
@@ -90,6 +91,7 @@ body {
 
   margin-top: auto;
   margin-bottom: 45px;
+  cursor: pointer;
 }
 /* banner css end */
 
@@ -165,7 +167,7 @@ p {
 }
 
 .secure-spot-section > h2 {
-  font-size: 56px;
+  font-size: 48px;
   margin-bottom: 0;
 }
 
@@ -173,4 +175,182 @@ p {
   margin-top: 10px;
   color: rgb(151, 151, 151);
   font-size: 1.2rem;
+}
+
+/* payment section styles */
+
+.payment-parent {
+  margin-bottom: 380px;
+  height: 500px;
+}
+
+.pricing-card-container {
+  max-width: 1250px;
+  height: 100%;
+  margin: auto;
+
+  display: flex;
+  /* justify-content: space-evenly; */
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Add this to allow items to wrap to the next line */
+}
+
+.pricing-card {
+  /* width: 320px;
+  background-color: white;
+  border-radius: 12px;
+  padding:24px;
+  border: 1px solid lightgray; */
+
+  /* width: 320px; */
+  width: 280px;
+  height: 360px;
+  padding: 24px;
+  border: 1px solid #e5e7eb;
+  background-color: white;
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  background-color: #f8f9fb;
+}
+
+.pricing-section {
+  border-bottom: 1px solid rgba(131, 131, 131, 0.3);
+}
+
+.pricing-section > p {
+  margin-top: 0; /* Set a consistent top margin */
+  margin-bottom: 0; /* Set a consistent bottom margin */
+  margin-left: 0;
+}
+
+.subscription-features {
+  font-size: 12px;
+  list-style: disc;
+  padding-left: 32px;
+  line-height: 1.3;
+  margin: 20px 0 20px -10px;
+}
+
+.subscription-features li {
+  color: #333333;
+  margin-bottom: 12px;
+}
+
+.middle .subscription-features li {
+  color: #b8b8b8;
+}
+
+.subscription-features li::marker {
+  color: #2563eb;
+}
+
+.left-subscription-model,
+.right-subscription-model {
+  font-size: 12px;
+  color: rgb(165, 165, 165);
+  font-weight: 600;
+}
+
+.left-subscription-price {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: 16px;
+  letter-spacing: 3px;
+  text-align: left;
+}
+
+.pricing-card .third-p {
+  color: #888888;
+  font-size: 13px;
+  margin-bottom: 18px;
+}
+
+.middle {
+  background-color: #0d1b2a;
+  color: white;
+}
+
+.middle-subscription-model {
+  font-size: 13px;
+  color: #93c5fd;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.middle-subscription-price {
+  font-size: 44px;
+  font-weight: 700;
+  margin-top: 16px;
+  letter-spacing: 2px;
+}
+
+.get-started-btn {
+  /* width: 100%;
+  display: block;
+  margin: auto 0 0 0;
+  align-self: center;
+
+  font-size: 18px;
+  background-color: #2563eb;
+  padding: 12px 24px;
+  margin-bottom: 15px; */
+
+  margin-top: auto;
+  width: 100%;
+
+  padding: 12px 0;
+
+  border: 1px solid #2563eb;
+  border-radius: 8px;
+
+  background: white;
+  color: #2563eb;
+
+  font-size: 13px;
+  font-weight: 500;
+
+  cursor: pointer;
+}
+
+.get-pro-btn {
+  margin-top: auto;
+  width: 100%;
+
+  padding: 12px 0;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #2563eb;
+  color: white;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.contact-us-btn {
+  margin-top: auto;
+  width: 100%;
+
+  padding: 12px 0;
+
+  border: 1px solid #0d1b2a;
+  border-radius: 8px;
+
+  background: #f8f9fb;
+  color: #0d1b2a;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  cursor: pointer;
 }

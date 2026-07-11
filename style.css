@@ -157,3 +157,21 @@ p {
   margin-top: 0;
   color: gray;
 }
+/* Secure a spot section */
+.secure-spot-section {
+  background-color: lightgray;
+  max-width: 1000px;
+  margin: 150px auto 65px auto;
+  text-align: center;
+}
+
+.secure-spot-section > h2 {
+  font-size: 56px;
+  margin-bottom: 0;
+}
+
+.secure-spot-section > p {
+  margin-top: 10px;
+  color: rgb(151, 151, 151);
+  font-size: 1.2rem;
+}

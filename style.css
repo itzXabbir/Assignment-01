@@ -95,9 +95,8 @@ body {
 
 .meet-the-speaker-headline {
   width: 900px;
-  background-color: teal;
-  margin: 90px auto 40px auto;
-  font-size: 56px;
+  margin: 90px auto 55px auto;
+  font-size: 60px;
   display: flex;
   justify-content: center;
 }

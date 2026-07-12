@@ -134,7 +134,7 @@ body {
    TYPOGRAPHY
 ========================= */
 
-  /* p {
+/* p {
   margin-left:20px; prevent all other <p> elements from getting a 20px from left side left side of it's parent-container.
   } */
 
@@ -355,6 +355,50 @@ body {
   color: #0d1b2a;
 
   font-size: 13px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+/* ==========================
+      CTA SECTION
+========================== */
+
+.cta-section {
+  background-color: #f8fafc;
+  padding: 90px 0;
+}
+
+.cta-content {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.cta-content h2 {
+  font-size: 48px;
+  margin-bottom: 18px;
+  color: #0d1b2a;
+}
+
+.cta-content p {
+  font-size: 18px;
+  color: #6b7280;
+  line-height: 1.7;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+.cta-btn {
+  background-color: #2563eb;
+  color: white;
+
+  border: none;
+  border-radius: 10px;
+
+  padding: 18px 48px;
+
+  font-size: 18px;
   font-weight: 600;
 
   cursor: pointer;

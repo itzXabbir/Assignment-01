@@ -4,7 +4,7 @@ body {
   font-family: "Inter";
 }
 
-/* navbar CSS start */
+/* Navbar Section */
 .header-wrapper {
   max-width: 1700px;
   margin: auto;
@@ -33,9 +33,8 @@ body {
   color: white;
   cursor: pointer;
 }
-/* navbar CSS start */
 
-/* banner css start */
+/* Banner (Hero) Section */
 
 .hero-section {
   /* height: 88vh;  not ideal for professional project*/
@@ -47,8 +46,8 @@ body {
     linear-gradient(to left, transparent, rgba(0, 0, 0, 0.8)),
     url(./assets/banner.jpg);
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
+  /* background-repeat: no-repeat; technically redundant(useless) cuz the background-size:cover; property already ensures that the image scalled to fill the entire container. */
 }
 
 .hero-content {
@@ -96,7 +95,8 @@ body {
   margin-bottom: 45px;
   cursor: pointer;
 }
-/* banner css end */
+
+/* Meet the Speakers Section */
 
 .meet-the-speaker-headline {
   width: 900px;
@@ -172,7 +172,11 @@ body {
 /* Secure a spot section */
 .secure-spot-section {
   max-width: 1000px;
-  margin: 150px auto 65px auto;
+  /* margin: 150px auto 65px auto; */
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 150px;
+  margin-bottom: 65px;
   text-align: center;
 }
 
@@ -187,7 +191,7 @@ body {
   font-size: 1rem;
 }
 
-/* payment section styles */
+/* Pricing Section */
 
 .payment-parent {
   height: 500px;
@@ -432,7 +436,7 @@ footer {
 
 .footer-section div {
   color: rgb(255, 255, 255, 0.4);
-}
+} 
 
 /* ==========================
       Social Icons
@@ -440,7 +444,7 @@ footer {
 
 .social-links {
   display: flex;
-
+          
   gap: 20px;
 }
 

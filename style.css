@@ -134,7 +134,13 @@ body {
    TYPOGRAPHY
 ========================= */
 
-p {
+  /* p {
+  margin-left:20px; prevent all other <p> elements from getting a 20px from left side left side of it's parent-container.
+  } */
+
+.speaker-specialty,
+.speaker-name,
+.speaker-company {
   margin-left: 20px;
 }
 
@@ -172,9 +178,9 @@ p {
 }
 
 .secure-spot-section > p {
-  margin-top: 10px;
+  margin-top: 12px;
   color: rgb(151, 151, 151);
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 /* payment section styles */
@@ -352,4 +358,53 @@ p {
   font-weight: 600;
 
   cursor: pointer;
+}
+
+/* footer section styles */
+
+footer {
+  /* height: 145px; */
+  background-color: #0d1b2a;
+  padding: 40px 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.footer-section {
+  max-width: 1600px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-section div {
+  color: rgb(255, 255, 255, 0.4);
+}
+
+/* ==========================
+      Social Icons
+========================== */
+
+.social-links {
+  display: flex;
+
+  gap: 20px;
+}
+
+.social-links a {
+  color: #9ca3af;
+
+  font-size: 24px;
+
+  transition: 0.3s;
+}
+
+.footer-section .policy {
+  display: flex;
+  gap: 15px;
 }
